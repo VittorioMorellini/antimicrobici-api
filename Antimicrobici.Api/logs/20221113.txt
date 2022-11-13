@@ -1,0 +1,381 @@
+2022-11-13 00:00:06.021 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-13 00:00:06.033 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 11.8387ms
+2022-11-13 00:00:06.835 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-13 00:00:06.836 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:06.836 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-13 00:00:06.843 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:06.846 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-13 00:00:06.847 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:06.848 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-13 00:00:06.854 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/tipimateriale - -
+2022-11-13 00:00:06.854 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:06.855 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"TipiMateriale\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.NamedEntity] Get()" on controller "Antimicrobici.Api.Controllers.TipiMaterialeController" ("Antimicrobici.Api").
+2022-11-13 00:00:06.860 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.Richiedente, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:00:06.861 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)" in 12.5123ms
+2022-11-13 00:00:06.861 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:06.862 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/richiedente - - - 200 64 application/json;+charset=utf-8 15.0801ms
+2022-11-13 00:00:06.878 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.NamedEntity, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:00:06.878 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)" in 23.3841ms
+2022-11-13 00:00:06.878 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:06.878 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/tipimateriale - - - 200 305 application/json;+charset=utf-8 24.4197ms
+2022-11-13 00:00:06.899 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-13 00:00:06.900 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 62.1066ms
+2022-11-13 00:00:06.900 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:06.900 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 437 application/json;+charset=utf-8 64.4882ms
+2022-11-13 00:00:06.903 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - -
+2022-11-13 00:00:06.904 +01:00 [Information] Executing endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:06.904 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Stampe\"}". Executing controller action with signature "System.String Get(System.String)" on controller "AntimicrobiciApi.Controllers.StampeController" ("Antimicrobici.Api").
+2022-11-13 00:00:06.915 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:06.935 +01:00 [Information] Executed DbCommand ("12"ms) [Parameters=["@__nameMenu_0='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Description], [m].[Icon], [m].[Name], [m].[Ordering], [m].[ParentId], [m].[UrlReport]
+FROM [Menu] AS [m]
+WHERE [m].[Name] = @__nameMenu_0"
+2022-11-13 00:00:06.935 +01:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2022-11-13 00:00:06.935 +01:00 [Information] Executed action "AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)" in 31.4434ms
+2022-11-13 00:00:06.935 +01:00 [Information] Executed endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:06.936 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - - - 204 - - 32.4491ms
+2022-11-13 00:00:07.002 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/user - -
+2022-11-13 00:00:07.002 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:07.003 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"UserProfile\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.UserProfileController" ("Antimicrobici.Api").
+2022-11-13 00:00:07.010 +01:00 [Information] Domani recuperato: System.String[]
+2022-11-13 00:00:07.017 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:07.024 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__username_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__username_0"
+2022-11-13 00:00:07.034 +01:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__id_0"
+2022-11-13 00:00:07.035 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.UserProfile"'.
+2022-11-13 00:00:07.035 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)" in 32.5746ms
+2022-11-13 00:00:07.035 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:07.036 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/user - - - 200 111 application/json;+charset=utf-8 33.7097ms
+2022-11-13 00:00:17.628 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-13 00:00:17.629 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 0.7259ms
+2022-11-13 00:00:18.432 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-13 00:00:18.434 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.435 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-13 00:00:18.439 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.Richiedente, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:00:18.441 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)" in 5.9713ms
+2022-11-13 00:00:18.441 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.439 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - -
+2022-11-13 00:00:18.441 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/richiedente - - - 200 64 application/json;+charset=utf-8 8.8798ms
+2022-11-13 00:00:18.442 +01:00 [Information] Executing endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.449 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Stampe\"}". Executing controller action with signature "System.String Get(System.String)" on controller "AntimicrobiciApi.Controllers.StampeController" ("Antimicrobici.Api").
+2022-11-13 00:00:18.455 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-13 00:00:18.455 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/tipimateriale - -
+2022-11-13 00:00:18.455 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:18.456 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.456 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.456 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-13 00:00:18.456 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"TipiMateriale\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.NamedEntity] Get()" on controller "Antimicrobici.Api.Controllers.TipiMaterialeController" ("Antimicrobici.Api").
+2022-11-13 00:00:18.458 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.NamedEntity, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:00:18.460 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)" in 4.2171ms
+2022-11-13 00:00:18.460 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.460 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=["@__nameMenu_0='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Description], [m].[Icon], [m].[Name], [m].[Ordering], [m].[ParentId], [m].[UrlReport]
+FROM [Menu] AS [m]
+WHERE [m].[Name] = @__nameMenu_0"
+2022-11-13 00:00:18.496 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:18.496 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/tipimateriale - - - 200 305 application/json;+charset=utf-8 40.3872ms
+2022-11-13 00:00:18.496 +01:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2022-11-13 00:00:18.497 +01:00 [Information] Executed action "AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)" in 47.1392ms
+2022-11-13 00:00:18.497 +01:00 [Information] Executed endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.497 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - - - 204 - - 58.4558ms
+2022-11-13 00:00:18.499 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-13 00:00:18.500 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 43.7442ms
+2022-11-13 00:00:18.500 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.500 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 437 application/json;+charset=utf-8 44.4376ms
+2022-11-13 00:00:18.524 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/user - -
+2022-11-13 00:00:18.525 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.525 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"UserProfile\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.UserProfileController" ("Antimicrobici.Api").
+2022-11-13 00:00:18.528 +01:00 [Information] Domani recuperato: System.String[]
+2022-11-13 00:00:18.532 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:18.537 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__username_0"
+2022-11-13 00:00:18.541 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=["@__id_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__id_0"
+2022-11-13 00:00:18.541 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.UserProfile"'.
+2022-11-13 00:00:18.542 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)" in 16.9955ms
+2022-11-13 00:00:18.542 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:18.543 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/user - - - 200 111 application/json;+charset=utf-8 18.2154ms
+2022-11-13 00:00:28.639 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 104
+2022-11-13 00:00:28.640 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-13 00:00:28.640 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:00:28.640 +01:00 [Information] Route matched with "{action = \"Save\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Antimicrobici.Api.Models.MatScadutoRecord] Save(Antimicrobici.Api.Models.MatScadutoRecord)" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:00:39.615 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - -
+2022-11-13 00:00:39.615 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:39.615 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.MatScaduto] Get(System.Nullable`1[System.Int32], System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32])" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:00:39.619 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:39.620 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.MatScaduto, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:00:39.620 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)" in 4.7785ms
+2022-11-13 00:00:39.620 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:39.620 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - - - 200 1837 application/json;+charset=utf-8 5.2859ms
+2022-11-13 00:00:39.742 +01:00 [Information] Executed DbCommand ("11"ms) [Parameters=["@p0='?' (Size = 24) (DbType = AnsiString), @p1='?' (Size = 18) (DbType = AnsiString), @p2='?' (Size = 100) (DbType = AnsiString), @p3='?' (DbType = DateTime), @p4='?' (DbType = DateTime), @p5='?' (DbType = DateTime), @p6='?' (Size = 100) (DbType = AnsiString), @p7='?' (Size = 100) (DbType = AnsiString), @p8='?' (Size = 255) (DbType = AnsiString), @p9='?' (Size = 50) (DbType = AnsiString), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime), @p12='?' (Size = 100) (DbType = AnsiString), @p13='?' (Size = 100) (DbType = AnsiString), @p14='?' (DbType = DateTime), @p15='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [MatScaduto] ([CodCdc], [CodMateriale], [CompileUser], [ControlDate], [ExpireDate], [InsertDate], [InsertUser], [Lotto], [Notes], [QualificationUser], [Quantity], [RetirementDate], [RetirementNotes], [RetirementUser], [UpdateDate], [UpdateUser])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [MatScaduto]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+2022-11-13 00:00:39.773 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.MatScadutoRecord"'.
+2022-11-13 00:00:39.774 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)" in 11134.4861ms
+2022-11-13 00:00:39.775 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:00:39.776 +01:00 [Information] Request finished HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 104 - 200 173 application/json;+charset=utf-8 11137.0722ms
+2022-11-13 00:00:56.298 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-13 00:00:56.298 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 0.9912ms
+2022-11-13 00:00:56.526 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-13 00:00:56.526 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.526 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-13 00:00:56.548 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:56.552 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-13 00:00:56.552 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/tipimateriale - -
+2022-11-13 00:00:56.552 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.552 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.552 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-13 00:00:56.552 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"TipiMateriale\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.NamedEntity] Get()" on controller "Antimicrobici.Api.Controllers.TipiMaterialeController" ("Antimicrobici.Api").
+2022-11-13 00:00:56.557 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.NamedEntity, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:00:56.557 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.Richiedente, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:00:56.557 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)" in 4.8737ms
+2022-11-13 00:00:56.557 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.558 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)" in 5.3516ms
+2022-11-13 00:00:56.558 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.558 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/tipimateriale - - - 200 305 application/json;+charset=utf-8 6.6262ms
+2022-11-13 00:00:56.558 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/richiedente - - - 200 64 application/json;+charset=utf-8 6.0799ms
+2022-11-13 00:00:56.566 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - -
+2022-11-13 00:00:56.568 +01:00 [Information] Executing endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.568 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Stampe\"}". Executing controller action with signature "System.String Get(System.String)" on controller "AntimicrobiciApi.Controllers.StampeController" ("Antimicrobici.Api").
+2022-11-13 00:00:56.575 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-13 00:00:56.576 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 49.0666ms
+2022-11-13 00:00:56.576 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.577 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 437 application/json;+charset=utf-8 51.1013ms
+2022-11-13 00:00:56.579 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:56.601 +01:00 [Information] Executed DbCommand ("4"ms) [Parameters=["@__nameMenu_0='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Description], [m].[Icon], [m].[Name], [m].[Ordering], [m].[ParentId], [m].[UrlReport]
+FROM [Menu] AS [m]
+WHERE [m].[Name] = @__nameMenu_0"
+2022-11-13 00:00:56.601 +01:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2022-11-13 00:00:56.602 +01:00 [Information] Executed action "AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)" in 33.121ms
+2022-11-13 00:00:56.602 +01:00 [Information] Executed endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.602 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - - - 204 - - 48.3136ms
+2022-11-13 00:00:56.645 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/user - -
+2022-11-13 00:00:56.646 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.646 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"UserProfile\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.UserProfileController" ("Antimicrobici.Api").
+2022-11-13 00:00:56.652 +01:00 [Information] Domani recuperato: System.String[]
+2022-11-13 00:00:56.666 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:00:56.670 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__username_0"
+2022-11-13 00:00:56.680 +01:00 [Information] Executed DbCommand ("6"ms) [Parameters=["@__id_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__id_0"
+2022-11-13 00:00:56.681 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.UserProfile"'.
+2022-11-13 00:00:56.681 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)" in 34.7782ms
+2022-11-13 00:00:56.681 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:00:56.681 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/user - - - 200 111 application/json;+charset=utf-8 35.9610ms
+2022-11-13 00:01:00.555 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/cdc/nome?count=10&nomeMateriale=te - -
+2022-11-13 00:01:00.556 +01:00 [Information] Executing endpoint '"AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)"'
+2022-11-13 00:01:00.556 +01:00 [Information] Route matched with "{action = \"GetByNome\", controller = \"Cdc\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.CentroDiCosto] GetByNome(System.String)" on controller "AntimicrobiciApi.Controllers.CdcController" ("Antimicrobici.Api").
+2022-11-13 00:01:00.567 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.CentroDiCosto, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:01:00.567 +01:00 [Information] Executed action "AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)" in 10.7967ms
+2022-11-13 00:01:00.567 +01:00 [Information] Executed endpoint '"AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)"'
+2022-11-13 00:01:00.568 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/cdc/nome?count=10&nomeMateriale=te - - - 200 1038 application/json;+charset=utf-8 12.1558ms
+2022-11-13 00:01:10.550 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 267
+2022-11-13 00:01:10.550 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-13 00:01:10.550 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:01:10.550 +01:00 [Information] Route matched with "{action = \"Save\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Antimicrobici.Api.Models.MatScadutoRecord] Save(Antimicrobici.Api.Models.MatScadutoRecord)" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:01:10.551 +01:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-11-13 00:01:10.551 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)" in 0.9794ms
+2022-11-13 00:01:10.551 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:01:10.551 +01:00 [Information] Request finished HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 267 - 400 286 application/problem+json;+charset=utf-8 1.4861ms
+2022-11-13 00:01:17.198 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - -
+2022-11-13 00:01:17.199 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:17.199 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.MatScaduto] Get(System.Nullable`1[System.Int32], System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32])" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:01:17.202 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.MatScaduto, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:01:17.203 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)" in 4.0369ms
+2022-11-13 00:01:17.203 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:17.203 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - - - 200 2285 application/json;+charset=utf-8 4.9039ms
+2022-11-13 00:01:20.758 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/cdc/nome?count=10&nomeMateriale=te - -
+2022-11-13 00:01:20.758 +01:00 [Information] Executing endpoint '"AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)"'
+2022-11-13 00:01:20.758 +01:00 [Information] Route matched with "{action = \"GetByNome\", controller = \"Cdc\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.CentroDiCosto] GetByNome(System.String)" on controller "AntimicrobiciApi.Controllers.CdcController" ("Antimicrobici.Api").
+2022-11-13 00:01:20.762 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.CentroDiCosto, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:01:20.762 +01:00 [Information] Executed action "AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)" in 3.7249ms
+2022-11-13 00:01:20.762 +01:00 [Information] Executed endpoint '"AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)"'
+2022-11-13 00:01:20.762 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/cdc/nome?count=10&nomeMateriale=te - - - 200 1038 application/json;+charset=utf-8 4.7761ms
+2022-11-13 00:01:30.358 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 239
+2022-11-13 00:01:30.358 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-13 00:01:30.358 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:01:30.358 +01:00 [Information] Route matched with "{action = \"Save\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Antimicrobici.Api.Models.MatScadutoRecord] Save(Antimicrobici.Api.Models.MatScadutoRecord)" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:01:30.359 +01:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-11-13 00:01:30.359 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)" in 1.3899ms
+2022-11-13 00:01:30.359 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:01:30.360 +01:00 [Information] Request finished HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 239 - 400 286 application/problem+json;+charset=utf-8 1.7876ms
+2022-11-13 00:01:34.437 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - -
+2022-11-13 00:01:34.437 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:34.437 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.MatScaduto] Get(System.Nullable`1[System.Int32], System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32])" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:01:34.439 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.MatScaduto, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:01:34.439 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)" in 1.7045ms
+2022-11-13 00:01:34.439 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:34.439 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - - - 200 2285 application/json;+charset=utf-8 2.0772ms
+2022-11-13 00:01:47.786 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-13 00:01:47.786 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 0.2234ms
+2022-11-13 00:01:48.284 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-13 00:01:48.284 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.284 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-13 00:01:48.288 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:01:48.300 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-13 00:01:48.300 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/tipimateriale - -
+2022-11-13 00:01:48.300 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.300 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.301 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-13 00:01:48.301 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"TipiMateriale\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.NamedEntity] Get()" on controller "Antimicrobici.Api.Controllers.TipiMaterialeController" ("Antimicrobici.Api").
+2022-11-13 00:01:48.302 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - -
+2022-11-13 00:01:48.306 +01:00 [Information] Executing endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.307 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.NamedEntity, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:01:48.307 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Stampe\"}". Executing controller action with signature "System.String Get(System.String)" on controller "AntimicrobiciApi.Controllers.StampeController" ("Antimicrobici.Api").
+2022-11-13 00:01:48.309 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)" in 7.6745ms
+2022-11-13 00:01:48.313 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.313 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/tipimateriale - - - 200 305 application/json;+charset=utf-8 13.0360ms
+2022-11-13 00:01:48.317 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:01:48.319 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.Richiedente, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:01:48.319 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)" in 17.7553ms
+2022-11-13 00:01:48.319 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.319 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/richiedente - - - 200 64 application/json;+charset=utf-8 19.4979ms
+2022-11-13 00:01:48.320 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-13 00:01:48.320 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 35.5162ms
+2022-11-13 00:01:48.320 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.320 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 437 application/json;+charset=utf-8 36.2937ms
+2022-11-13 00:01:48.325 +01:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__nameMenu_0='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Description], [m].[Icon], [m].[Name], [m].[Ordering], [m].[ParentId], [m].[UrlReport]
+FROM [Menu] AS [m]
+WHERE [m].[Name] = @__nameMenu_0"
+2022-11-13 00:01:48.327 +01:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2022-11-13 00:01:48.328 +01:00 [Information] Executed action "AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)" in 20.244ms
+2022-11-13 00:01:48.328 +01:00 [Information] Executed endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.329 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - - - 204 - - 26.9619ms
+2022-11-13 00:01:48.651 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/user - -
+2022-11-13 00:01:48.651 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.652 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"UserProfile\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.UserProfileController" ("Antimicrobici.Api").
+2022-11-13 00:01:48.655 +01:00 [Information] Domani recuperato: System.String[]
+2022-11-13 00:01:48.659 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:01:48.665 +01:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__username_0"
+2022-11-13 00:01:48.673 +01:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@__id_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__id_0"
+2022-11-13 00:01:48.674 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.UserProfile"'.
+2022-11-13 00:01:48.674 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)" in 22.1674ms
+2022-11-13 00:01:48.674 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:01:48.675 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/user - - - 200 111 application/json;+charset=utf-8 23.5929ms
+2022-11-13 00:01:51.782 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/cdc/nome?count=10&nomeMateriale=te - -
+2022-11-13 00:01:51.782 +01:00 [Information] Executing endpoint '"AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)"'
+2022-11-13 00:01:51.782 +01:00 [Information] Route matched with "{action = \"GetByNome\", controller = \"Cdc\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.CentroDiCosto] GetByNome(System.String)" on controller "AntimicrobiciApi.Controllers.CdcController" ("Antimicrobici.Api").
+2022-11-13 00:01:51.784 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.CentroDiCosto, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:01:51.784 +01:00 [Information] Executed action "AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)" in 1.9753ms
+2022-11-13 00:01:51.785 +01:00 [Information] Executed endpoint '"AntimicrobiciApi.Controllers.CdcController.GetByNome (Antimicrobici.Api)"'
+2022-11-13 00:01:51.785 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/cdc/nome?count=10&nomeMateriale=te - - - 200 1038 application/json;+charset=utf-8 2.7063ms
+2022-11-13 00:02:00.673 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 232
+2022-11-13 00:02:00.673 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-13 00:02:00.673 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:02:00.673 +01:00 [Information] Route matched with "{action = \"Save\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Antimicrobici.Api.Models.MatScadutoRecord] Save(Antimicrobici.Api.Models.MatScadutoRecord)" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:02:00.674 +01:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2022-11-13 00:02:00.674 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)" in 1.2671ms
+2022-11-13 00:02:00.674 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:02:00.675 +01:00 [Information] Request finished HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 232 - 400 286 application/problem+json;+charset=utf-8 2.0719ms
+2022-11-13 00:02:02.890 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - -
+2022-11-13 00:02:02.891 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:02.891 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.MatScaduto] Get(System.Nullable`1[System.Int32], System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32])" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:02:02.894 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.MatScaduto, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:02:02.894 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)" in 3.0467ms
+2022-11-13 00:02:02.894 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:02.894 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - - - 200 2285 application/json;+charset=utf-8 3.7951ms
+2022-11-13 00:02:15.329 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 104
+2022-11-13 00:02:15.329 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-13 00:02:15.329 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:02:15.329 +01:00 [Information] Route matched with "{action = \"Save\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Antimicrobici.Api.Models.MatScadutoRecord] Save(Antimicrobici.Api.Models.MatScadutoRecord)" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:02:21.134 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - -
+2022-11-13 00:02:21.134 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:21.135 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.MatScaduto] Get(System.Nullable`1[System.Int32], System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.Nullable`1[System.Int32], System.String, System.Nullable`1[System.Int32])" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").
+2022-11-13 00:02:21.137 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:02:21.140 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.MatScaduto, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:02:21.140 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)" in 5.7822ms
+2022-11-13 00:02:21.140 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:21.141 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materialiscaduti?count=10 - - - 200 2285 application/json;+charset=utf-8 6.4891ms
+2022-11-13 00:02:21.146 +01:00 [Information] Executed DbCommand ("3"ms) [Parameters=["@p0='?' (Size = 24) (DbType = AnsiString), @p1='?' (Size = 18) (DbType = AnsiString), @p2='?' (Size = 100) (DbType = AnsiString), @p3='?' (DbType = DateTime), @p4='?' (DbType = DateTime), @p5='?' (DbType = DateTime), @p6='?' (Size = 100) (DbType = AnsiString), @p7='?' (Size = 100) (DbType = AnsiString), @p8='?' (Size = 255) (DbType = AnsiString), @p9='?' (Size = 50) (DbType = AnsiString), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime), @p12='?' (Size = 100) (DbType = AnsiString), @p13='?' (Size = 100) (DbType = AnsiString), @p14='?' (DbType = DateTime), @p15='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [MatScaduto] ([CodCdc], [CodMateriale], [CompileUser], [ControlDate], [ExpireDate], [InsertDate], [InsertUser], [Lotto], [Notes], [QualificationUser], [Quantity], [RetirementDate], [RetirementNotes], [RetirementUser], [UpdateDate], [UpdateUser])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+SELECT [Id]
+FROM [MatScaduto]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+2022-11-13 00:02:21.149 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.MatScadutoRecord"'.
+2022-11-13 00:02:21.149 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)" in 5819.5999ms
+2022-11-13 00:02:21.149 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:02:21.149 +01:00 [Information] Request finished HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 104 - 200 173 application/json;+charset=utf-8 5820.4746ms
+2022-11-13 00:02:43.640 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-13 00:02:43.650 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 15.2903ms
+2022-11-13 00:02:44.288 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-13 00:02:44.289 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.289 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-13 00:02:44.292 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:02:44.295 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-13 00:02:44.295 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.296 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-13 00:02:44.299 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.Richiedente, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:02:44.301 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)" in 4.8101ms
+2022-11-13 00:02:44.301 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.303 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/tipimateriale - -
+2022-11-13 00:02:44.302 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/richiedente - - - 200 64 application/json;+charset=utf-8 7.6165ms
+2022-11-13 00:02:44.337 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.338 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"TipiMateriale\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.NamedEntity] Get()" on controller "Antimicrobici.Api.Controllers.TipiMaterialeController" ("Antimicrobici.Api").
+2022-11-13 00:02:44.344 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.NamedEntity, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-13 00:02:44.344 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)" in 4.345ms
+2022-11-13 00:02:44.344 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.TipiMaterialeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.344 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/tipimateriale - - - 200 305 application/json;+charset=utf-8 41.1851ms
+2022-11-13 00:02:44.348 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-13 00:02:44.348 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 59.3423ms
+2022-11-13 00:02:44.348 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.348 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 437 application/json;+charset=utf-8 60.6882ms
+2022-11-13 00:02:44.615 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - -
+2022-11-13 00:02:44.615 +01:00 [Information] Executing endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.615 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Stampe\"}". Executing controller action with signature "System.String Get(System.String)" on controller "AntimicrobiciApi.Controllers.StampeController" ("Antimicrobici.Api").
+2022-11-13 00:02:44.618 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:02:44.623 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__nameMenu_0='?' (Size = 50) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[Id], [m].[Description], [m].[Icon], [m].[Name], [m].[Ordering], [m].[ParentId], [m].[UrlReport]
+FROM [Menu] AS [m]
+WHERE [m].[Name] = @__nameMenu_0"
+2022-11-13 00:02:44.624 +01:00 [Information] Executing "ObjectResult", writing value of type '"null"'.
+2022-11-13 00:02:44.624 +01:00 [Information] Executed action "AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)" in 8.4555ms
+2022-11-13 00:02:44.624 +01:00 [Information] Executed endpoint '"AntimicrobiciApi.Controllers.StampeController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.624 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/stampe?urlMenu=materiali/materialiscaduti - - - 204 - - 9.1554ms
+2022-11-13 00:02:44.657 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/user - -
+2022-11-13 00:02:44.658 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.658 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"UserProfile\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.UserProfileController" ("Antimicrobici.Api").
+2022-11-13 00:02:44.661 +01:00 [Information] Domani recuperato: System.String[]
+2022-11-13 00:02:44.663 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-13 00:02:44.669 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__username_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__username_0"
+2022-11-13 00:02:44.674 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (Size = 100) (DbType = AnsiString)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [p].[Id], [p].[CompanyId], [p].[Description], [p].[Disabled], [p].[LandingPage], [p].[LockUserDate], [p].[Locked], [p].[ModifyPassword], [p].[ModifyPasswordDate], [p].[Name], [p].[NumberWrongAccess], [p].[Password], [p].[PasswordLocked], [p].[Qualification], [p].[Role], [p].[Surname], [p].[Username], [p].[WrongAccessDate]
+FROM [Principal] AS [p]
+WHERE [p].[Username] = @__id_0"
+2022-11-13 00:02:44.674 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.UserProfile"'.
+2022-11-13 00:02:44.675 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)" in 16.7599ms
+2022-11-13 00:02:44.675 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.UserProfileController.Get (Antimicrobici.Api)"'
+2022-11-13 00:02:44.675 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/user - - - 200 111 application/json;+charset=utf-8 17.4544ms
+2022-11-13 00:02:54.783 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:4200/materialiscaduti application/json 107
+2022-11-13 00:02:54.783 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-13 00:02:54.783 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MaterialiScadutiController.Save (Antimicrobici.Api)"'
+2022-11-13 00:02:54.783 +01:00 [Information] Route matched with "{action = \"Save\", controller = \"MaterialiScaduti\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Antimicrobici.Api.Models.MatScadutoRecord] Save(Antimicrobici.Api.Models.MatScadutoRecord)" on controller "Antimicrobici.Api.Controllers.MaterialiScadutiController" ("Antimicrobici.Api").

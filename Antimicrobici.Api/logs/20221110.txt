@@ -1,0 +1,320 @@
+2022-11-10 12:53:26.342 +01:00 [Information] Now listening on: "https://localhost:7139"
+2022-11-10 12:53:26.431 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-10 12:53:26.437 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-10 12:53:26.439 +01:00 [Information] Hosting environment: "Development"
+2022-11-10 12:53:26.440 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-10 12:53:27.684 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/index.html - -
+2022-11-10 12:53:28.659 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/index.html - - - 200 - text/html;charset=utf-8 977.4870ms
+2022-11-10 12:53:28.807 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - -
+2022-11-10 12:53:28.830 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 22.3550ms
+2022-11-10 12:53:28.943 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_vs/browserLink - -
+2022-11-10 12:53:29.083 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 139.7470ms
+2022-11-10 12:53:29.253 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - -
+2022-11-10 12:53:29.404 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 150.7880ms
+2022-11-10 12:57:35.830 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 12:57:35.867 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 36.6475ms
+2022-11-10 12:57:35.882 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 12:57:35.914 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 12:57:35.914 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 33.3917ms
+2022-11-10 12:57:35.948 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 12:57:35.949 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.7279ms
+2022-11-10 12:57:35.952 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 12:57:35.954 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 12:57:35.955 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 2.9763ms
+2022-11-10 13:01:04.241 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:01:04.243 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 1.5497ms
+2022-11-10 13:01:04.287 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:01:04.300 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:04.300 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 14.0298ms
+2022-11-10 13:01:04.341 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:01:04.341 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.6417ms
+2022-11-10 13:01:04.355 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:01:04.356 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:04.356 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.9572ms
+2022-11-10 13:01:04.542 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:04.543 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.9878ms
+2022-11-10 13:01:04.549 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:04.551 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:04.551 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 2.1294ms
+2022-11-10 13:01:04.623 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/628/xjckbeb3/websocket - -
+2022-11-10 13:01:04.624 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/628/xjckbeb3/websocket - - - 307 0 - 0.7533ms
+2022-11-10 13:01:05.470 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:05.471 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 1.0200ms
+2022-11-10 13:01:06.766 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:06.767 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:06.767 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.7526ms
+2022-11-10 13:01:07.244 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/690/4eqlcl0b/websocket - -
+2022-11-10 13:01:07.245 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/690/4eqlcl0b/websocket - - - 307 0 - 0.7103ms
+2022-11-10 13:01:11.517 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:01:11.519 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.9849ms
+2022-11-10 13:01:12.012 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:01:12.012 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:12.013 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 3.4185ms
+2022-11-10 13:01:12.093 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:01:12.094 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 1.0775ms
+2022-11-10 13:01:12.168 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:01:12.171 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:12.172 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 3.6293ms
+2022-11-10 13:01:12.360 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:12.360 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.5886ms
+2022-11-10 13:01:12.368 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:12.368 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:12.368 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.7787ms
+2022-11-10 13:01:12.480 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/745/ox40xhxq/websocket - -
+2022-11-10 13:01:12.481 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/745/ox40xhxq/websocket - - - 307 0 - 0.6781ms
+2022-11-10 13:01:13.893 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/436/25zj1tu0/websocket - -
+2022-11-10 13:01:13.894 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/436/25zj1tu0/websocket - - - 307 0 - 0.7263ms
+2022-11-10 13:01:18.530 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:01:18.531 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.7271ms
+2022-11-10 13:01:18.822 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:01:18.823 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:18.824 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 2.1564ms
+2022-11-10 13:01:18.888 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:01:18.889 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.6597ms
+2022-11-10 13:01:18.914 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:01:18.914 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:18.915 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 1.1406ms
+2022-11-10 13:01:19.148 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:19.149 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.6332ms
+2022-11-10 13:01:19.151 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/839/tfpjzqpd/websocket - -
+2022-11-10 13:01:19.152 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/839/tfpjzqpd/websocket - - - 307 0 - 0.5896ms
+2022-11-10 13:01:19.156 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:19.157 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:19.157 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 1.3428ms
+2022-11-10 13:01:20.502 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/293/aunb4f5t/websocket - -
+2022-11-10 13:01:20.503 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/293/aunb4f5t/websocket - - - 307 0 - 0.8181ms
+2022-11-10 13:01:25.208 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:01:25.208 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.6755ms
+2022-11-10 13:01:25.704 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:01:25.704 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:25.704 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.6733ms
+2022-11-10 13:01:25.725 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:25.725 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.6457ms
+2022-11-10 13:01:25.771 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:01:25.772 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.5552ms
+2022-11-10 13:01:25.777 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:25.778 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:25.778 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.7710ms
+2022-11-10 13:01:25.785 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:01:25.786 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:25.787 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 2.0037ms
+2022-11-10 13:01:26.106 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/748/waflt3o5/websocket - -
+2022-11-10 13:01:26.107 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/748/waflt3o5/websocket - - - 307 0 - 0.6907ms
+2022-11-10 13:01:27.860 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/562/o43fe3bt/websocket - -
+2022-11-10 13:01:27.861 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/562/o43fe3bt/websocket - - - 307 0 - 0.3824ms
+2022-11-10 13:01:31.712 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:01:31.713 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.9514ms
+2022-11-10 13:01:32.232 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:01:32.232 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:32.232 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 1.0193ms
+2022-11-10 13:01:32.297 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:01:32.298 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.7098ms
+2022-11-10 13:01:32.316 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:01:32.317 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:32.317 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.9077ms
+2022-11-10 13:01:32.562 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:32.562 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.4754ms
+2022-11-10 13:01:32.566 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:32.568 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:32.568 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 2.4512ms
+2022-11-10 13:01:32.624 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/921/0hjvfvnn/websocket - -
+2022-11-10 13:01:32.624 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/921/0hjvfvnn/websocket - - - 307 0 - 0.4636ms
+2022-11-10 13:01:37.436 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:01:37.437 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.5573ms
+2022-11-10 13:01:37.924 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:37.924 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.4133ms
+2022-11-10 13:01:37.934 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:37.935 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:37.935 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 1.0183ms
+2022-11-10 13:01:38.019 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/097/0ynn5aqj/websocket - -
+2022-11-10 13:01:38.019 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/097/0ynn5aqj/websocket - - - 307 0 - 0.5011ms
+2022-11-10 13:01:39.425 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/938/lqhuujdq/websocket - -
+2022-11-10 13:01:39.427 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/938/lqhuujdq/websocket - - - 307 0 - 2.4627ms
+2022-11-10 13:01:44.204 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:01:44.205 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.8912ms
+2022-11-10 13:01:44.605 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:01:44.606 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:44.606 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.9872ms
+2022-11-10 13:01:44.708 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:01:44.709 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.4368ms
+2022-11-10 13:01:44.724 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:01:44.724 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:44.725 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 1.0315ms
+2022-11-10 13:01:44.944 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:44.945 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.5536ms
+2022-11-10 13:01:44.950 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:44.950 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:44.950 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.8215ms
+2022-11-10 13:01:45.040 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/188/4ctvnzop/websocket - -
+2022-11-10 13:01:45.041 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/188/4ctvnzop/websocket - - - 307 0 - 0.4364ms
+2022-11-10 13:01:47.312 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/776/qaselzkm/websocket - -
+2022-11-10 13:01:47.312 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/776/qaselzkm/websocket - - - 307 0 - 0.4411ms
+2022-11-10 13:01:52.517 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:01:52.518 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.7953ms
+2022-11-10 13:01:53.044 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:01:53.044 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:53.045 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.6537ms
+2022-11-10 13:01:53.079 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:01:53.080 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.4388ms
+2022-11-10 13:01:53.139 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:01:53.140 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 1.0697ms
+2022-11-10 13:01:53.155 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:01:53.155 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:53.155 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 1.0305ms
+2022-11-10 13:01:53.156 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:01:53.156 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:01:53.157 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.5971ms
+2022-11-10 13:01:53.471 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/532/ukzoshc5/websocket - -
+2022-11-10 13:01:53.471 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/532/ukzoshc5/websocket - - - 307 0 - 0.3852ms
+2022-11-10 13:01:55.311 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/724/mzzggegb/websocket - -
+2022-11-10 13:01:55.311 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/724/mzzggegb/websocket - - - 307 0 - 0.5905ms
+2022-11-10 13:02:00.216 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:02:00.216 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.5220ms
+2022-11-10 13:02:00.732 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:02:00.732 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:00.733 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.7388ms
+2022-11-10 13:02:00.785 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:02:00.785 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.3514ms
+2022-11-10 13:02:00.794 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:02:00.795 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:00.795 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.6681ms
+2022-11-10 13:02:01.054 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:02:01.054 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.3887ms
+2022-11-10 13:02:01.059 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:02:01.059 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:01.060 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.6203ms
+2022-11-10 13:02:01.104 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/381/ipg4tigl/websocket - -
+2022-11-10 13:02:01.105 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/381/ipg4tigl/websocket - - - 307 0 - 0.4482ms
+2022-11-10 13:02:03.317 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/702/zivqvlun/websocket - -
+2022-11-10 13:02:03.318 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/702/zivqvlun/websocket - - - 307 0 - 0.3340ms
+2022-11-10 13:02:07.813 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:02:07.814 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.5032ms
+2022-11-10 13:02:08.319 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:02:08.319 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:08.319 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.7342ms
+2022-11-10 13:02:08.332 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:02:08.333 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.7941ms
+2022-11-10 13:02:08.393 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:02:08.394 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.5959ms
+2022-11-10 13:02:08.404 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:02:08.405 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:08.409 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 1.0140ms
+2022-11-10 13:02:08.416 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:02:08.416 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:08.417 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.6314ms
+2022-11-10 13:02:08.724 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/903/exsgcpol/websocket - -
+2022-11-10 13:02:08.724 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/903/exsgcpol/websocket - - - 307 0 - 0.5132ms
+2022-11-10 13:02:10.088 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/507/52o0qotj/websocket - -
+2022-11-10 13:02:10.089 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/507/52o0qotj/websocket - - - 307 0 - 0.4610ms
+2022-11-10 13:02:13.944 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:02:13.945 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.6702ms
+2022-11-10 13:02:14.400 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:02:14.401 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:14.402 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 1.5224ms
+2022-11-10 13:02:14.463 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:02:14.463 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.5109ms
+2022-11-10 13:02:14.473 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:02:14.473 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:14.474 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 1.4223ms
+2022-11-10 13:02:14.719 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:02:14.720 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.4985ms
+2022-11-10 13:02:14.723 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:02:14.723 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:14.724 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.7545ms
+2022-11-10 13:02:14.783 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/979/mbpunbbo/websocket - -
+2022-11-10 13:02:14.784 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/979/mbpunbbo/websocket - - - 307 0 - 0.4719ms
+2022-11-10 13:02:16.142 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/434/r21rfcp2/websocket - -
+2022-11-10 13:02:16.142 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/434/r21rfcp2/websocket - - - 307 0 - 0.3911ms
+2022-11-10 13:02:19.803 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:02:19.803 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.4695ms
+2022-11-10 13:02:20.193 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:02:20.193 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:20.194 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.5571ms
+2022-11-10 13:02:20.212 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:02:20.213 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.5777ms
+2022-11-10 13:02:20.261 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:02:20.261 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.4724ms
+2022-11-10 13:02:20.265 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:02:20.265 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:20.266 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.8779ms
+2022-11-10 13:02:20.274 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:02:20.274 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:20.274 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.7699ms
+2022-11-10 13:02:20.582 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/580/4fdis1v3/websocket - -
+2022-11-10 13:02:20.583 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/580/4fdis1v3/websocket - - - 307 0 - 0.6009ms
+2022-11-10 13:02:21.956 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/231/asrmmm3i/websocket - -
+2022-11-10 13:02:21.957 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/231/asrmmm3i/websocket - - - 307 0 - 0.3571ms
+2022-11-10 13:02:25.559 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:02:25.559 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.5453ms
+2022-11-10 13:02:25.975 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:02:25.975 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:25.975 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.7021ms
+2022-11-10 13:02:26.032 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:02:26.033 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.5152ms
+2022-11-10 13:02:26.043 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:02:26.043 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:26.044 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 1.1408ms
+2022-11-10 13:02:26.306 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:02:26.307 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.4624ms
+2022-11-10 13:02:26.312 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:02:26.313 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:26.313 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.5887ms
+2022-11-10 13:02:26.351 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/139/wxp4gydg/websocket - -
+2022-11-10 13:02:26.352 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/139/wxp4gydg/websocket - - - 307 0 - 0.3256ms
+2022-11-10 13:02:27.758 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/237/a1ebttzg/websocket - -
+2022-11-10 13:02:27.759 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/237/a1ebttzg/websocket - - - 307 0 - 0.3945ms
+2022-11-10 13:02:31.203 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:02:31.204 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.4484ms
+2022-11-10 13:02:31.655 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:02:31.656 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:31.656 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.6482ms
+2022-11-10 13:02:31.677 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:02:31.677 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.5442ms
+2022-11-10 13:02:31.721 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:02:31.721 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.4878ms
+2022-11-10 13:02:31.728 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:02:31.729 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:31.729 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.7435ms
+2022-11-10 13:02:31.733 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:02:31.733 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:31.734 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.7218ms
+2022-11-10 13:02:32.075 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/868/wooyjwvp/websocket - -
+2022-11-10 13:02:32.075 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/868/wooyjwvp/websocket - - - 307 0 - 0.6550ms
+2022-11-10 13:02:34.316 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/068/bwmsijbt/websocket - -
+2022-11-10 13:02:34.316 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/068/bwmsijbt/websocket - - - 307 0 - 0.3432ms
+2022-11-10 13:02:39.322 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:02:39.326 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.4542ms
+2022-11-10 13:02:39.863 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:02:39.863 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:39.863 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.7043ms
+2022-11-10 13:02:40.184 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:02:40.184 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:02:40.184 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.3302ms
+2022-11-10 13:02:40.184 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.7395ms
+2022-11-10 13:02:40.188 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:02:40.189 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:02:40.189 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:40.189 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:40.189 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.6722ms
+2022-11-10 13:02:40.189 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.2858ms
+2022-11-10 13:02:40.513 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/916/gocts23h/websocket - -
+2022-11-10 13:02:40.513 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/916/gocts23h/websocket - - - 307 0 - 0.2866ms
+2022-11-10 13:02:42.289 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/370/xwhqa1yc/websocket - -
+2022-11-10 13:02:42.289 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/370/xwhqa1yc/websocket - - - 307 0 - 0.1620ms
+2022-11-10 13:02:46.529 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-10 13:02:46.529 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 0.2228ms
+2022-11-10 13:02:46.961 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-10 13:02:46.961 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:46.961 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.3877ms
+2022-11-10 13:02:46.971 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-10 13:02:46.972 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 307 0 - 0.3513ms
+2022-11-10 13:02:47.008 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-10 13:02:47.009 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.3425ms
+2022-11-10 13:02:47.019 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/assets/manifest.json - -
+2022-11-10 13:02:47.019 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:47.019 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-10 13:02:47.019 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/assets/manifest.json - - - 404 0 - 0.6197ms
+2022-11-10 13:02:47.019 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-10 13:02:47.019 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.4594ms
+2022-11-10 13:02:47.342 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/131/rpjw5qsx/websocket - -
+2022-11-10 13:02:47.342 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/131/rpjw5qsx/websocket - - - 307 0 - 0.3001ms

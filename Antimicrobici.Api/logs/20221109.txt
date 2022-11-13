@@ -1,0 +1,117 @@
+2022-11-09 21:24:28.426 +01:00 [Information] Now listening on: "https://localhost:7139"
+2022-11-09 21:24:28.492 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-09 21:24:28.497 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-09 21:24:28.499 +01:00 [Information] Hosting environment: "Development"
+2022-11-09 21:24:28.500 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-09 21:24:30.432 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger - -
+2022-11-09 21:24:30.687 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger - - - 301 0 - 256.9585ms
+2022-11-09 21:24:30.747 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/index.html - -
+2022-11-09 21:24:31.696 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/index.html - - - 200 - text/html;charset=utf-8 948.8723ms
+2022-11-09 21:24:31.747 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/swagger-ui.css - -
+2022-11-09 21:24:31.752 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/swagger-ui-bundle.js - -
+2022-11-09 21:24:31.752 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/swagger-ui-standalone-preset.js - -
+2022-11-09 21:24:31.760 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_vs/browserLink - -
+2022-11-09 21:24:31.850 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - -
+2022-11-09 21:24:31.882 +01:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2022-11-09 21:24:31.882 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/swagger-ui.css - - - 200 143943 text/css 135.4639ms
+2022-11-09 21:24:31.936 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 86.0124ms
+2022-11-09 21:24:31.968 +01:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2022-11-09 21:24:31.969 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 216.7349ms
+2022-11-09 21:24:31.965 +01:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2022-11-09 21:24:31.982 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 218.8117ms
+2022-11-09 21:24:32.204 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 445.6943ms
+2022-11-09 21:24:32.547 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - -
+2022-11-09 21:24:32.568 +01:00 [Information] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2022-11-09 21:24:32.622 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.9820ms
+2022-11-09 21:40:45.640 +01:00 [Information] Now listening on: "https://localhost:7139"
+2022-11-09 21:40:45.699 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-09 21:40:45.706 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-09 21:40:45.708 +01:00 [Information] Hosting environment: "Development"
+2022-11-09 21:40:45.710 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-09 21:40:46.816 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/index.html - -
+2022-11-09 21:40:47.373 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/index.html - - - 200 - text/html;charset=utf-8 562.2693ms
+2022-11-09 21:40:47.411 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - -
+2022-11-09 21:40:47.419 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_vs/browserLink - -
+2022-11-09 21:40:47.431 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 19.8158ms
+2022-11-09 21:40:47.493 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 78.9798ms
+2022-11-09 21:40:47.845 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - -
+2022-11-09 21:40:47.864 +01:00 [Information] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2022-11-09 21:40:47.904 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 58.9080ms
+2022-11-09 21:58:25.048 +01:00 [Information] Now listening on: "https://localhost:7139"
+2022-11-09 21:58:25.124 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-09 21:58:25.134 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-09 21:58:25.137 +01:00 [Information] Hosting environment: "Development"
+2022-11-09 21:58:25.140 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-09 21:58:26.416 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/index.html - -
+2022-11-09 21:58:27.716 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/index.html - - - 200 - text/html;charset=utf-8 1306.0249ms
+2022-11-09 21:58:27.738 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - -
+2022-11-09 21:58:27.738 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_vs/browserLink - -
+2022-11-09 21:58:27.748 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 9.5558ms
+2022-11-09 21:58:27.792 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.9175ms
+2022-11-09 21:58:27.921 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - -
+2022-11-09 21:58:28.112 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.2254ms
+2022-11-09 21:59:18.236 +01:00 [Information] Now listening on: "https://localhost:7139"
+2022-11-09 21:59:18.353 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-09 21:59:18.377 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-09 21:59:18.396 +01:00 [Information] Hosting environment: "Development"
+2022-11-09 21:59:18.403 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-09 21:59:19.800 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/index.html - -
+2022-11-09 21:59:20.867 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/index.html - - - 200 - text/html;charset=utf-8 1068.9502ms
+2022-11-09 21:59:20.902 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_vs/browserLink - -
+2022-11-09 21:59:20.902 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - -
+2022-11-09 21:59:20.929 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 24.9874ms
+2022-11-09 21:59:20.985 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.6078ms
+2022-11-09 21:59:21.139 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - -
+2022-11-09 21:59:21.450 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 310.1990ms
+2022-11-09 22:11:57.843 +01:00 [Information] Now listening on: "https://localhost:7139"
+2022-11-09 22:11:57.923 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-09 22:11:57.931 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-09 22:11:57.933 +01:00 [Information] Hosting environment: "Development"
+2022-11-09 22:11:57.935 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-09 22:11:59.715 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/index.html - -
+2022-11-09 22:12:00.338 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/index.html - - - 200 - text/html;charset=utf-8 632.0223ms
+2022-11-09 22:12:00.367 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_vs/browserLink - -
+2022-11-09 22:12:00.367 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - -
+2022-11-09 22:12:00.388 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 21.5340ms
+2022-11-09 22:12:00.424 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.6736ms
+2022-11-09 22:12:00.550 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - -
+2022-11-09 22:12:00.864 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 314.1604ms
+2022-11-09 22:16:30.397 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-09 22:16:30.441 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 44.2078ms
+2022-11-09 22:16:30.496 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-09 22:16:30.507 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 11.4743ms
+2022-11-09 22:16:30.539 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-09 22:16:30.540 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.6843ms
+2022-11-09 22:16:30.543 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-09 22:16:30.543 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.9721ms
+2022-11-09 22:17:47.816 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-09 22:17:47.818 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 2.4631ms
+2022-11-09 22:17:48.279 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-09 22:17:48.280 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 0.4975ms
+2022-11-09 22:17:48.357 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-09 22:17:48.358 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 1.4205ms
+2022-11-09 22:17:48.375 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-09 22:17:48.375 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 0.7186ms
+2022-11-09 22:23:19.967 +01:00 [Information] Now listening on: "https://localhost:7139"
+2022-11-09 22:23:20.220 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-09 22:23:20.244 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-09 22:23:20.261 +01:00 [Information] Hosting environment: "Development"
+2022-11-09 22:23:20.272 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-09 22:23:22.147 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/index.html - -
+2022-11-09 22:23:22.851 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/index.html - - - 200 - text/html;charset=utf-8 710.4503ms
+2022-11-09 22:23:22.908 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_vs/browserLink - -
+2022-11-09 22:23:22.908 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - -
+2022-11-09 22:23:22.955 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 47.3177ms
+2022-11-09 22:23:23.077 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 169.2747ms
+2022-11-09 22:23:23.260 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - -
+2022-11-09 22:23:23.662 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 401.5530ms
+2022-11-09 22:23:46.539 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-09 22:23:46.568 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 307 0 - 30.1729ms
+2022-11-09 22:23:46.985 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/i18n - -
+2022-11-09 22:23:47.030 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-09 22:23:47.030 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/i18n - - - 404 0 - 45.9993ms
+2022-11-09 22:23:47.080 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-09 22:23:47.081 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 307 0 - 0.7408ms
+2022-11-09 22:23:47.084 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/api/menu - -
+2022-11-09 22:23:47.086 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-09 22:23:47.087 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/api/menu - - - 404 0 - 2.6177ms

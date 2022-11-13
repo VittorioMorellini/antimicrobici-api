@@ -1,0 +1,887 @@
+2022-11-11 17:18:40.423 +01:00 [Information] Now listening on: "https://localhost:7139"
+2022-11-11 17:18:40.499 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 17:18:40.505 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 17:18:40.507 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 17:18:40.509 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 17:18:42.773 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/index.html - -
+2022-11-11 17:18:43.774 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/index.html - - - 200 - text/html;charset=utf-8 1012.9352ms
+2022-11-11 17:18:43.832 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_vs/browserLink - -
+2022-11-11 17:18:43.833 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:18:43.891 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 57.7610ms
+2022-11-11 17:18:44.020 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 188.1140ms
+2022-11-11 17:18:44.127 +01:00 [Information] Request starting HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - -
+2022-11-11 17:18:44.463 +01:00 [Information] Request finished HTTP/2 GET https://localhost:7139/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 335.5969ms
+2022-11-11 17:19:05.980 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 17:19:06.118 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 17:19:06.122 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 17:19:06.124 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 17:19:07.249 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger - -
+2022-11-11 17:19:07.650 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger - - - 301 0 - 442.7320ms
+2022-11-11 17:19:07.678 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 17:19:08.042 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 363.3000ms
+2022-11-11 17:19:08.056 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/swagger-ui-bundle.js - -
+2022-11-11 17:19:08.055 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/swagger-ui.css - -
+2022-11-11 17:19:08.058 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/swagger-ui-standalone-preset.js - -
+2022-11-11 17:19:08.060 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:19:08.060 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 17:19:08.072 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 12.9364ms
+2022-11-11 17:19:08.133 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 71.8010ms
+2022-11-11 17:19:08.137 +01:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2022-11-11 17:19:08.137 +01:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2022-11-11 17:19:08.137 +01:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2022-11-11 17:19:08.137 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 79.6593ms
+2022-11-11 17:19:08.138 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 82.0177ms
+2022-11-11 17:19:08.138 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/swagger-ui.css - - - 200 143943 text/css 82.2537ms
+2022-11-11 17:19:08.466 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 17:19:08.517 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/favicon-32x32.png - -
+2022-11-11 17:19:08.518 +01:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2022-11-11 17:19:08.518 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/favicon-32x32.png - - - 200 628 image/png 1.1470ms
+2022-11-11 17:19:08.653 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.0148ms
+2022-11-11 17:21:02.126 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:02.158 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 17:21:02.210 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 83.4287ms
+2022-11-11 17:21:02.280 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:02.282 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 2.3904ms
+2022-11-11 17:21:02.381 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:02.382 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 1.4232ms
+2022-11-11 17:21:02.512 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/326/u30i0h1a/websocket - -
+2022-11-11 17:21:02.514 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:02.515 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/326/u30i0h1a/websocket - - - 404 0 - 2.6318ms
+2022-11-11 17:21:03.699 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:03.700 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.5461ms
+2022-11-11 17:21:03.946 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/228/5rwg0fta/websocket - -
+2022-11-11 17:21:03.946 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:03.946 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/228/5rwg0fta/websocket - - - 404 0 - 0.5198ms
+2022-11-11 17:21:11.254 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:11.254 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.4779ms
+2022-11-11 17:21:12.124 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:12.125 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.5730ms
+2022-11-11 17:21:12.504 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/766/pgzeud4g/websocket - -
+2022-11-11 17:21:12.504 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:12.504 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:12.504 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.4006ms
+2022-11-11 17:21:12.505 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/766/pgzeud4g/websocket - - - 404 0 - 0.8846ms
+2022-11-11 17:21:14.388 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/877/i51d2rnv/websocket - -
+2022-11-11 17:21:14.388 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:14.388 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/877/i51d2rnv/websocket - - - 404 0 - 0.5188ms
+2022-11-11 17:21:19.743 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:19.743 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.4010ms
+2022-11-11 17:21:20.301 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:20.301 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.4162ms
+2022-11-11 17:21:20.312 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:20.313 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.8235ms
+2022-11-11 17:21:20.650 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/733/zmu0c0io/websocket - -
+2022-11-11 17:21:20.651 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:20.651 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/733/zmu0c0io/websocket - - - 404 0 - 0.4874ms
+2022-11-11 17:21:22.402 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/941/kqsnd10i/websocket - -
+2022-11-11 17:21:22.402 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:22.403 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/941/kqsnd10i/websocket - - - 404 0 - 0.4352ms
+2022-11-11 17:21:27.530 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:27.531 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.9674ms
+2022-11-11 17:21:28.103 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:28.104 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.4744ms
+2022-11-11 17:21:28.428 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:28.428 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/238/bh5ysv4t/websocket - -
+2022-11-11 17:21:28.428 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:28.428 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.4145ms
+2022-11-11 17:21:28.428 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/238/bh5ysv4t/websocket - - - 404 0 - 0.2929ms
+2022-11-11 17:21:30.375 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/183/vsea11dj/websocket - -
+2022-11-11 17:21:30.375 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:30.375 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/183/vsea11dj/websocket - - - 404 0 - 0.4159ms
+2022-11-11 17:21:35.512 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:35.512 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.7505ms
+2022-11-11 17:21:36.059 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:36.060 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.5207ms
+2022-11-11 17:21:36.079 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:36.079 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.4997ms
+2022-11-11 17:21:36.414 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/709/3dabmvqw/websocket - -
+2022-11-11 17:21:36.414 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:36.415 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/709/3dabmvqw/websocket - - - 404 0 - 0.4189ms
+2022-11-11 17:21:37.805 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/728/ecnu1fzg/websocket - -
+2022-11-11 17:21:37.805 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:37.806 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/728/ecnu1fzg/websocket - - - 404 0 - 0.9642ms
+2022-11-11 17:21:41.353 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:41.353 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.4075ms
+2022-11-11 17:21:41.841 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:41.841 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.4624ms
+2022-11-11 17:21:42.181 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/244/sln4i4s2/websocket - -
+2022-11-11 17:21:42.181 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:42.182 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:42.182 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 1.1929ms
+2022-11-11 17:21:42.182 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/244/sln4i4s2/websocket - - - 404 0 - 1.2752ms
+2022-11-11 17:21:43.613 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/174/riv21034/websocket - -
+2022-11-11 17:21:43.613 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:43.613 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/174/riv21034/websocket - - - 404 0 - 0.4034ms
+2022-11-11 17:21:47.118 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:47.118 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.3602ms
+2022-11-11 17:21:47.583 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:47.584 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.4449ms
+2022-11-11 17:21:47.610 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:47.611 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.5706ms
+2022-11-11 17:21:47.941 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/389/3tqwiy3e/websocket - -
+2022-11-11 17:21:47.942 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:47.942 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/389/3tqwiy3e/websocket - - - 404 0 - 0.4006ms
+2022-11-11 17:21:49.342 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/369/1b5rcp1p/websocket - -
+2022-11-11 17:21:49.342 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:49.342 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/369/1b5rcp1p/websocket - - - 404 0 - 0.2341ms
+2022-11-11 17:21:52.926 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:52.927 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 1.2076ms
+2022-11-11 17:21:53.404 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:53.405 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.7166ms
+2022-11-11 17:21:53.751 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:53.751 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/866/qypis5su/websocket - -
+2022-11-11 17:21:53.752 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:53.753 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.5639ms
+2022-11-11 17:21:53.753 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/866/qypis5su/websocket - - - 404 0 - 1.7598ms
+2022-11-11 17:21:55.141 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/656/oy2sn5gn/websocket - -
+2022-11-11 17:21:55.141 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:55.142 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/656/oy2sn5gn/websocket - - - 404 0 - 0.3994ms
+2022-11-11 17:21:58.665 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:21:58.666 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.7365ms
+2022-11-11 17:21:59.120 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:21:59.120 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.3620ms
+2022-11-11 17:21:59.140 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:21:59.141 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.3783ms
+2022-11-11 17:21:59.455 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/940/o24ew3px/websocket - -
+2022-11-11 17:21:59.456 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:21:59.456 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/940/o24ew3px/websocket - - - 404 0 - 0.2461ms
+2022-11-11 17:22:00.828 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/613/1ebhshwz/websocket - -
+2022-11-11 17:22:00.829 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:00.829 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/613/1ebhshwz/websocket - - - 404 0 - 0.3596ms
+2022-11-11 17:22:04.312 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:04.313 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.4438ms
+2022-11-11 17:22:04.823 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:04.824 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.5160ms
+2022-11-11 17:22:05.152 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:05.152 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.3355ms
+2022-11-11 17:22:05.163 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/405/yvkcalsu/websocket - -
+2022-11-11 17:22:05.163 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:05.163 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/405/yvkcalsu/websocket - - - 404 0 - 0.3975ms
+2022-11-11 17:22:06.522 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/258/rzbk2uzv/websocket - -
+2022-11-11 17:22:06.522 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:06.522 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/258/rzbk2uzv/websocket - - - 404 0 - 0.2647ms
+2022-11-11 17:22:10.019 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:10.020 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.2807ms
+2022-11-11 17:22:10.493 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:10.493 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.2631ms
+2022-11-11 17:22:10.512 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:10.512 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.3162ms
+2022-11-11 17:22:10.830 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/295/a3utic3n/websocket - -
+2022-11-11 17:22:10.830 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:10.831 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/295/a3utic3n/websocket - - - 404 0 - 0.2450ms
+2022-11-11 17:22:12.272 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/622/0q4s1mgc/websocket - -
+2022-11-11 17:22:12.272 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:12.272 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/622/0q4s1mgc/websocket - - - 404 0 - 0.5714ms
+2022-11-11 17:22:15.941 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:15.942 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 4.6116ms
+2022-11-11 17:22:16.432 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:16.433 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.3225ms
+2022-11-11 17:22:16.756 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:16.756 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.2710ms
+2022-11-11 17:22:16.768 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/560/eomjcton/websocket - -
+2022-11-11 17:22:16.768 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:16.768 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/560/eomjcton/websocket - - - 404 0 - 0.3260ms
+2022-11-11 17:22:18.197 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/545/j5nmos4j/websocket - -
+2022-11-11 17:22:18.197 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:18.197 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/545/j5nmos4j/websocket - - - 404 0 - 0.3704ms
+2022-11-11 17:22:21.996 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:21.996 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.3063ms
+2022-11-11 17:22:22.425 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:22.427 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 1.8115ms
+2022-11-11 17:22:22.444 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:22.444 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.3055ms
+2022-11-11 17:22:22.775 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/599/rqydjhjw/websocket - -
+2022-11-11 17:22:22.776 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:22.776 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/599/rqydjhjw/websocket - - - 404 0 - 0.3545ms
+2022-11-11 17:22:24.183 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/344/sesoxffj/websocket - -
+2022-11-11 17:22:24.183 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:24.183 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/344/sesoxffj/websocket - - - 404 0 - 0.3527ms
+2022-11-11 17:22:27.710 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:27.711 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.2904ms
+2022-11-11 17:22:28.156 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:28.157 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.3724ms
+2022-11-11 17:22:28.473 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:28.473 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.3130ms
+2022-11-11 17:22:28.482 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/121/defchmi3/websocket - -
+2022-11-11 17:22:28.482 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:28.482 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/121/defchmi3/websocket - - - 404 0 - 0.3021ms
+2022-11-11 17:22:29.894 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/361/4e4lzsfk/websocket - -
+2022-11-11 17:22:29.895 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:29.895 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/361/4e4lzsfk/websocket - - - 404 0 - 0.3943ms
+2022-11-11 17:22:33.334 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:33.335 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.2976ms
+2022-11-11 17:22:33.805 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:33.806 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.3835ms
+2022-11-11 17:22:33.815 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:33.816 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.3363ms
+2022-11-11 17:22:34.168 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/632/ziiq5ns5/websocket - -
+2022-11-11 17:22:34.168 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:34.168 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/632/ziiq5ns5/websocket - - - 404 0 - 0.4312ms
+2022-11-11 17:22:36.374 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/140/sbn24ts2/websocket - -
+2022-11-11 17:22:36.375 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:36.375 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/140/sbn24ts2/websocket - - - 404 0 - 0.4601ms
+2022-11-11 17:22:41.212 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:41.212 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.2835ms
+2022-11-11 17:22:41.716 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:41.716 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.3431ms
+2022-11-11 17:22:42.036 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:42.037 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.4362ms
+2022-11-11 17:22:42.037 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/954/h0ahklbg/websocket - -
+2022-11-11 17:22:42.037 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:42.038 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/954/h0ahklbg/websocket - - - 404 0 - 0.5502ms
+2022-11-11 17:22:44.390 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/451/nwh2wcqo/websocket - -
+2022-11-11 17:22:44.390 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:44.390 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/451/nwh2wcqo/websocket - - - 404 0 - 0.3873ms
+2022-11-11 17:22:49.137 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:49.137 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.2133ms
+2022-11-11 17:22:49.666 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:49.667 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.3966ms
+2022-11-11 17:22:49.675 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:49.675 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.2131ms
+2022-11-11 17:22:49.987 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/405/bvmc33cm/websocket - -
+2022-11-11 17:22:49.988 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:49.988 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/405/bvmc33cm/websocket - - - 404 0 - 0.3258ms
+2022-11-11 17:22:51.387 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/667/10myfaou/websocket - -
+2022-11-11 17:22:51.387 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:51.387 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/667/10myfaou/websocket - - - 404 0 - 0.2680ms
+2022-11-11 17:22:55.921 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:22:55.921 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.2586ms
+2022-11-11 17:22:56.464 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:22:56.465 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.6488ms
+2022-11-11 17:22:56.799 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/assets/manifest.json - -
+2022-11-11 17:22:56.799 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/396/iwewavc2/websocket - -
+2022-11-11 17:22:56.799 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:56.799 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/396/iwewavc2/websocket - - - 404 0 - 0.2309ms
+2022-11-11 17:22:56.799 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/assets/manifest.json - - - 404 0 - 0.6015ms
+2022-11-11 17:22:58.235 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/sockjs-node/019/lfyzsn5m/websocket - -
+2022-11-11 17:22:58.235 +01:00 [Information] No CORS policy found for the specified request.
+2022-11-11 17:22:58.236 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/sockjs-node/019/lfyzsn5m/websocket - - - 404 0 - 1.0587ms
+2022-11-11 17:32:17.323 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:32:17.329 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 4.3115ms
+2022-11-11 17:32:17.594 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:32:17.599 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 1.2467ms
+2022-11-11 17:32:27.625 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/principal - -
+2022-11-11 17:32:27.665 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Endpoint Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api) contains authorization metadata, but a middleware was not found that supports authorization.
+Configure your application startup by adding app.UseAuthorization() in the application startup code. If there are calls to app.UseRouting() and app.UseEndpoints(...), the call to app.UseAuthorization() must go between them.
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.ThrowMissingAuthMiddlewareException(Endpoint endpoint)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2022-11-11 17:32:27.690 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/principal - - - 500 - text/html;+charset=utf-8 64.6676ms
+2022-11-11 17:32:27.699 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:32:27.699 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 17:32:27.699 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.1962ms
+2022-11-11 17:32:27.713 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.9144ms
+2022-11-11 17:32:27.783 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/favicon.ico - -
+2022-11-11 17:32:27.784 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/favicon.ico - - - 404 0 - 0.1663ms
+2022-11-11 17:33:06.582 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 17:33:06.653 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 17:33:06.655 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 17:33:06.657 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 17:33:08.034 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 17:33:08.582 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 559.8915ms
+2022-11-11 17:33:08.613 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 17:33:08.616 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:33:08.622 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 5.1157ms
+2022-11-11 17:33:08.672 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.4792ms
+2022-11-11 17:33:09.079 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 17:33:09.325 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 245.6344ms
+2022-11-11 17:33:27.599 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:33:27.625 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 17:33:27.656 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 58.1609ms
+2022-11-11 17:33:27.691 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:33:27.693 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 1.7404ms
+2022-11-11 17:33:55.033 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/principal - -
+2022-11-11 17:33:55.058 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)"'
+2022-11-11 17:33:55.065 +01:00 [Information] Route matched with "{action = \"Test\", controller = \"Principal\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Test()" on controller "Antimicrobici.Api.Controllers.PrincipalController" ("Antimicrobici.Api").
+2022-11-11 17:33:55.071 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)" in 1.7917ms
+2022-11-11 17:33:55.072 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)"'
+2022-11-11 17:33:55.106 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Antimicrobici.Core.Services.IPrincipalService' while attempting to activate 'Antimicrobici.Api.Controllers.PrincipalController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method4(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2022-11-11 17:33:55.140 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/principal - - - 500 - text/html;+charset=utf-8 107.6733ms
+2022-11-11 17:33:55.151 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:33:55.151 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 17:33:55.151 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.7854ms
+2022-11-11 17:33:55.168 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.1246ms
+2022-11-11 17:33:55.246 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/favicon.ico - -
+2022-11-11 17:33:55.246 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/favicon.ico - - - 404 0 - 0.2555ms
+2022-11-11 17:34:31.260 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/principal - -
+2022-11-11 17:34:31.265 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)"'
+2022-11-11 17:34:31.265 +01:00 [Information] Route matched with "{action = \"Test\", controller = \"Principal\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Test()" on controller "Antimicrobici.Api.Controllers.PrincipalController" ("Antimicrobici.Api").
+2022-11-11 17:34:31.266 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)" in 0.4916ms
+2022-11-11 17:34:31.266 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)"'
+2022-11-11 17:34:31.271 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Antimicrobici.Core.Services.IPrincipalService' while attempting to activate 'Antimicrobici.Api.Controllers.PrincipalController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method4(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2022-11-11 17:34:31.287 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/principal - - - 500 - text/html;+charset=utf-8 27.7811ms
+2022-11-11 17:34:31.356 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 17:34:31.358 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:34:31.362 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 3.3417ms
+2022-11-11 17:34:31.380 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.4706ms
+2022-11-11 17:34:31.382 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/favicon.ico - -
+2022-11-11 17:34:31.383 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/favicon.ico - - - 404 0 - 0.5132ms
+2022-11-11 17:37:38.536 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 17:37:38.676 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 17:37:38.681 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 17:37:38.684 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 17:37:40.085 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 17:37:40.843 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 763.0974ms
+2022-11-11 17:37:40.874 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 17:37:40.876 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:37:40.906 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 28.9314ms
+2022-11-11 17:37:40.983 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 108.3360ms
+2022-11-11 17:37:41.175 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 17:37:41.488 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.7347ms
+2022-11-11 17:37:47.386 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/principal - -
+2022-11-11 17:37:47.399 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 17:37:47.419 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)"'
+2022-11-11 17:37:47.428 +01:00 [Information] Route matched with "{action = \"Test\", controller = \"Principal\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Test()" on controller "Antimicrobici.Api.Controllers.PrincipalController" ("Antimicrobici.Api").
+2022-11-11 17:37:47.432 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)" in 1.4087ms
+2022-11-11 17:37:47.432 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)"'
+2022-11-11 17:37:47.471 +01:00 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Antimicrobici.Core.Services.IPrincipalService' while attempting to activate 'Antimicrobici.Api.Controllers.PrincipalController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method4(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2022-11-11 17:37:47.496 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/principal - - - 500 - text/html;+charset=utf-8 109.2979ms
+2022-11-11 17:37:47.515 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 17:37:47.515 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:37:47.516 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 0.5655ms
+2022-11-11 17:37:47.529 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 13.5536ms
+2022-11-11 17:37:47.617 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/favicon.ico - -
+2022-11-11 17:37:47.618 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/favicon.ico - - - 404 0 - 1.6039ms
+2022-11-11 17:45:42.509 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 17:45:42.621 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 17:45:42.625 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 17:45:42.628 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 17:45:43.587 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 17:45:43.971 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 387.8939ms
+2022-11-11 17:45:43.994 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 17:45:43.996 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 17:45:44.007 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 9.4235ms
+2022-11-11 17:45:44.029 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.8539ms
+2022-11-11 17:45:44.135 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 17:45:44.477 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 342.0502ms
+2022-11-11 17:45:58.837 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 17:45:58.859 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 17:45:58.893 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 56.5150ms
+2022-11-11 17:45:58.934 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 17:45:58.936 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 2.7492ms
+2022-11-11 17:46:17.849 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/principal - -
+2022-11-11 17:46:17.856 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)"'
+2022-11-11 17:46:17.869 +01:00 [Information] Route matched with "{action = \"Test\", controller = \"Principal\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Test()" on controller "Antimicrobici.Api.Controllers.PrincipalController" ("Antimicrobici.Api").
+2022-11-11 17:46:21.997 +01:00 [Information] Executing "OkObjectResult", writing value of type '"System.String"'.
+2022-11-11 17:46:22.005 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)" in 4131.8296ms
+2022-11-11 17:46:22.005 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.PrincipalController.Test (Antimicrobici.Api)"'
+2022-11-11 17:46:22.007 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/principal - - - 200 - text/plain;+charset=utf-8 4157.3659ms
+2022-11-11 18:38:51.198 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/i18n - -
+2022-11-11 18:38:51.199 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/i18n - - - 404 0 - 0.8638ms
+2022-11-11 18:38:51.242 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/api/menu - -
+2022-11-11 18:38:51.242 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/api/menu - - - 404 0 - 0.4339ms
+2022-11-11 18:41:27.187 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 18:41:27.189 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 1.1204ms
+2022-11-11 18:41:28.470 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 18:41:28.471 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 0.5660ms
+2022-11-11 18:41:28.856 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 18:41:28.857 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 18:41:28.862 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 18:41:45.736 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 18:41:45.736 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 18:41:45.736 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 18:41:49.695 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 18:41:49.695 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 18:41:49.924 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 21064.6268ms
+2022-11-11 18:41:49.924 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 4188.8206ms
+2022-11-11 18:41:49.924 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 18:41:49.924 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 18:41:49.925 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 52 application/json;+charset=utf-8 4189.6674ms
+2022-11-11 18:41:49.925 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 52 application/json;+charset=utf-8 21072.0382ms
+2022-11-11 20:30:08.969 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 20:30:09.120 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 20:30:09.125 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 20:30:09.129 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 20:30:09.980 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 20:30:10.550 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 576.2767ms
+2022-11-11 20:30:10.574 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 20:30:10.578 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 20:30:10.579 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 5.8612ms
+2022-11-11 20:30:10.633 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.4221ms
+2022-11-11 20:30:10.779 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 20:30:10.970 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.4496ms
+2022-11-11 20:30:47.326 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 20:30:47.352 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 20:30:47.381 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 54.6848ms
+2022-11-11 20:30:47.431 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 20:30:47.445 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 20:30:47.465 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 20:31:06.375 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 20:34:18.473 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 20:34:18.647 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 20:34:18.652 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 20:34:18.658 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 20:34:19.604 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 20:34:20.390 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 790.3183ms
+2022-11-11 20:34:20.433 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 20:34:20.433 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 20:34:20.438 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 4.6185ms
+2022-11-11 20:34:20.529 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 96.0517ms
+2022-11-11 20:34:20.777 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 20:34:21.045 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 267.2447ms
+2022-11-11 20:34:30.694 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 20:34:30.829 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 20:34:31.021 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 327.4127ms
+2022-11-11 20:34:31.625 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 20:34:31.634 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 20:34:31.656 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 20:34:50.378 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 20:36:43.843 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 20:36:43.942 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 20:36:43.944 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 20:36:43.946 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 20:36:45.515 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 20:36:46.048 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 538.5091ms
+2022-11-11 20:36:46.088 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 20:36:46.092 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 20:36:46.108 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 15.8206ms
+2022-11-11 20:36:46.151 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.4072ms
+2022-11-11 20:36:46.326 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 20:36:46.629 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 303.4568ms
+2022-11-11 20:37:11.917 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 20:37:11.965 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 20:37:12.007 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 88.9411ms
+2022-11-11 20:37:12.529 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 20:37:12.538 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 20:37:12.559 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 20:37:21.412 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 20:37:39.046 +01:00 [Error] errore in recupero menu
+2022-11-11 21:52:19.632 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 21:52:19.729 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 21:52:19.732 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 21:52:19.735 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 21:52:20.602 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 21:52:21.128 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 529.8278ms
+2022-11-11 21:52:21.149 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 21:52:21.155 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 5.7333ms
+2022-11-11 21:52:21.159 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 21:52:21.300 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 140.8200ms
+2022-11-11 21:52:21.477 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 21:52:21.712 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 234.8865ms
+2022-11-11 21:52:52.250 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 21:52:52.275 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 21:52:52.313 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 69.6938ms
+2022-11-11 21:52:52.592 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 21:52:52.598 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 21:52:52.622 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 21:52:56.219 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 21:56:30.522 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 21:56:30.742 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 218118.0467ms
+2022-11-11 21:56:30.743 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 21:56:30.750 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 218166.3723ms
+2022-11-11 21:58:45.865 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 21:58:45.997 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 21:58:46.003 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 21:58:46.006 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 21:58:47.299 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 21:58:48.112 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 818.6340ms
+2022-11-11 21:58:48.137 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 21:58:48.143 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 21:58:48.152 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 6.9555ms
+2022-11-11 21:58:48.200 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.2370ms
+2022-11-11 21:58:48.484 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 21:58:48.809 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 323.4144ms
+2022-11-11 21:59:11.965 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 21:59:12.007 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 21:59:12.074 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 104.4831ms
+2022-11-11 21:59:12.146 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 21:59:12.159 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 21:59:12.195 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 21:59:20.528 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 21:59:23.704 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 21:59:23.850 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 11646.0272ms
+2022-11-11 21:59:23.850 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 21:59:23.857 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 11711.4791ms
+2022-11-11 22:09:09.236 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 22:09:09.246 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 9.7645ms
+2022-11-11 22:09:09.762 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 22:09:09.764 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 22:09:09.765 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 22:09:09.807 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 22:09:09.836 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 22:09:09.837 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 72.0157ms
+2022-11-11 22:09:09.837 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 22:09:09.837 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 75.5459ms
+2022-11-11 22:09:10.104 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 22:09:10.105 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedenti - -
+2022-11-11 22:09:10.105 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 0.6068ms
+2022-11-11 22:09:10.105 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/richiedenti - - - 404 0 - 0.3894ms
+2022-11-11 22:38:44.176 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 22:38:44.323 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 22:38:44.329 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 22:38:44.332 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 22:38:45.819 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 22:38:46.571 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 756.7877ms
+2022-11-11 22:38:46.636 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 22:38:46.647 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 22:38:46.664 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 14.1328ms
+2022-11-11 22:38:46.805 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 169.1562ms
+2022-11-11 22:38:46.959 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 22:38:47.236 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 276.8497ms
+2022-11-11 22:39:55.191 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 22:39:55.295 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 22:39:55.299 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 22:39:55.301 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 22:39:56.745 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 22:39:57.355 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 615.3565ms
+2022-11-11 22:39:57.381 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 22:39:57.390 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 22:39:57.390 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 9.1561ms
+2022-11-11 22:39:57.447 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.1475ms
+2022-11-11 22:39:57.699 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 22:39:58.118 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 419.2780ms
+2022-11-11 22:40:13.955 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 22:40:14.001 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 22:40:14.076 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 120.2016ms
+2022-11-11 22:40:14.145 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 22:40:14.166 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 22:40:14.202 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 22:40:16.758 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 22:40:18.006 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 22:40:18.672 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 4456.5383ms
+2022-11-11 22:40:18.673 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 22:40:18.705 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedenti - -
+2022-11-11 22:40:18.707 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 22:40:18.708 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/richiedenti - - - 404 0 - 2.4234ms
+2022-11-11 22:40:18.708 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 0.7353ms
+2022-11-11 22:40:18.709 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 4563.7533ms
+2022-11-11 22:46:03.423 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 22:46:03.493 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 22:46:03.496 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 22:46:03.498 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 22:46:04.563 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 22:46:05.136 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 578.7081ms
+2022-11-11 22:46:05.168 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 22:46:05.174 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 6.0111ms
+2022-11-11 22:46:05.175 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 22:46:05.215 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.4378ms
+2022-11-11 22:46:05.447 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 22:46:05.692 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 245.0237ms
+2022-11-11 22:46:25.777 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 22:46:25.797 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 22:46:25.825 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 48.2872ms
+2022-11-11 22:46:25.865 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 22:46:25.870 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 22:46:25.885 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 22:46:27.353 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 22:46:27.975 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 22:46:28.123 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 2232.6523ms
+2022-11-11 22:46:28.123 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 22:46:28.130 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 2265.0232ms
+2022-11-11 22:46:28.918 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 22:46:28.918 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 22:46:28.919 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 22:46:28.921 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 3.1273ms
+2022-11-11 22:46:28.924 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:10:27.161 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:10:27.283 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:10:27.287 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:10:27.290 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:10:28.032 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:10:28.491 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 467.5666ms
+2022-11-11 23:10:28.511 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:10:28.524 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:10:28.530 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 4.9388ms
+2022-11-11 23:10:28.562 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.2702ms
+2022-11-11 23:10:28.747 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:10:29.007 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 260.4321ms
+2022-11-11 23:10:42.544 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:10:42.574 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:10:42.620 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 75.6842ms
+2022-11-11 23:10:43.297 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:10:43.311 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:10:43.336 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:10:46.164 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:10:46.882 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:10:47.080 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 3736.8063ms
+2022-11-11 23:10:47.080 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:10:47.090 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 3793.2888ms
+2022-11-11 23:10:47.201 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:10:47.202 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:10:47.203 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:10:47.203 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 6.9016ms
+2022-11-11 23:10:47.212 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:11:25.397 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:11:25.510 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:11:25.514 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:11:25.516 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:11:27.296 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:11:27.971 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 681.1998ms
+2022-11-11 23:11:27.998 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:11:28.001 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:11:28.005 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 7.2968ms
+2022-11-11 23:11:28.057 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.8972ms
+2022-11-11 23:11:28.261 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:11:28.727 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 466.2381ms
+2022-11-11 23:11:51.692 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:11:51.768 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:11:51.839 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 147.4659ms
+2022-11-11 23:11:52.279 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:11:52.292 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:11:52.337 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:11:54.164 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:11:54.853 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:11:55.080 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 2732.4526ms
+2022-11-11 23:11:55.081 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:11:55.100 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 2820.7894ms
+2022-11-11 23:11:55.185 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:11:55.185 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:11:55.187 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:11:55.188 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 2.3259ms
+2022-11-11 23:11:55.191 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:28:02.305 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:28:02.364 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:28:02.367 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:28:02.368 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:28:03.534 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:28:04.114 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 572.5955ms
+2022-11-11 23:28:04.137 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:28:04.141 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:28:04.171 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 29.0074ms
+2022-11-11 23:28:04.205 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 66.4849ms
+2022-11-11 23:28:04.402 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:28:04.656 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 248.0248ms
+2022-11-11 23:28:14.033 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:28:14.094 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:28:14.198 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 160.7502ms
+2022-11-11 23:28:14.620 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:28:14.645 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:28:14.687 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:28:16.743 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:28:17.415 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:28:18.826 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 4033.0097ms
+2022-11-11 23:28:18.826 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:28:18.834 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 4113.4956ms
+2022-11-11 23:28:18.915 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:28:18.918 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:28:18.919 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:28:18.919 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 0.5697ms
+2022-11-11 23:28:18.924 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:35:34.480 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:35:34.533 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:35:34.535 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:35:34.537 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:35:35.685 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:35:36.202 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 524.1226ms
+2022-11-11 23:35:36.231 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:35:36.237 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 5.1771ms
+2022-11-11 23:35:36.233 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:35:36.291 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.3323ms
+2022-11-11 23:35:36.476 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:35:36.710 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 233.6798ms
+2022-11-11 23:35:43.414 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:35:43.450 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:35:43.493 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 79.3011ms
+2022-11-11 23:35:43.870 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:35:43.882 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:35:43.912 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:35:45.668 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:35:46.344 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:35:46.655 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 2733.2064ms
+2022-11-11 23:35:46.656 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:35:46.668 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 2796.6608ms
+2022-11-11 23:35:46.679 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:35:46.682 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:35:46.682 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:35:46.683 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 0.5543ms
+2022-11-11 23:35:46.686 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:36:56.499 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:36:56.611 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:36:56.613 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:36:56.615 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:36:57.426 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:36:57.953 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 534.5707ms
+2022-11-11 23:36:57.976 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:36:57.982 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:36:57.991 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 8.5884ms
+2022-11-11 23:36:58.021 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.4363ms
+2022-11-11 23:36:58.213 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:36:58.445 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 232.3739ms
+2022-11-11 23:37:06.580 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:37:06.610 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:37:06.650 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 70.7784ms
+2022-11-11 23:37:07.008 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:37:07.019 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:37:07.049 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:37:08.502 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:37:09.043 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:37:09.230 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 2174.378ms
+2022-11-11 23:37:09.230 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:37:09.239 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 2230.5711ms
+2022-11-11 23:37:09.248 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:37:09.250 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:37:09.252 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:37:09.252 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 2.0846ms
+2022-11-11 23:37:09.260 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:41:29.389 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:41:29.431 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:41:29.433 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:41:29.434 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:41:30.255 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:41:30.801 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 552.9354ms
+2022-11-11 23:41:30.829 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:41:30.829 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:41:30.839 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 8.7939ms
+2022-11-11 23:41:30.875 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.5789ms
+2022-11-11 23:41:31.044 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:41:31.261 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.1232ms
+2022-11-11 23:41:39.379 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:41:39.402 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:41:39.447 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 67.0986ms
+2022-11-11 23:41:39.841 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:41:39.854 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:41:39.882 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:41:41.421 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:41:41.934 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:41:42.095 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 2206.3887ms
+2022-11-11 23:41:42.095 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:41:42.103 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 2264.0422ms
+2022-11-11 23:41:42.111 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:41:42.111 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:41:42.112 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:41:42.112 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 0.8343ms
+2022-11-11 23:41:42.115 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:45:33.586 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:45:33.633 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:45:33.635 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:45:33.637 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:45:34.256 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:45:34.857 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 606.4672ms
+2022-11-11 23:45:34.877 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:45:34.879 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:45:34.889 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 9.1218ms
+2022-11-11 23:45:34.915 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.8929ms
+2022-11-11 23:45:35.076 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:45:35.318 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 242.2058ms
+2022-11-11 23:45:45.906 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:45:45.940 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:45:46.003 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 97.0946ms
+2022-11-11 23:45:46.468 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:45:46.483 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:45:46.508 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:45:48.567 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:45:49.134 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:45:49.300 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 2786.1918ms
+2022-11-11 23:45:49.301 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:45:49.311 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 2845.9066ms
+2022-11-11 23:45:49.314 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:45:49.316 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:45:49.317 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:45:49.318 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 0.5422ms
+2022-11-11 23:45:49.321 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:47:59.666 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:47:59.721 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:47:59.724 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:47:59.726 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:48:00.498 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:48:01.059 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 567.3915ms
+2022-11-11 23:48:01.082 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:48:01.085 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:48:01.097 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 10.8324ms
+2022-11-11 23:48:01.125 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.4843ms
+2022-11-11 23:48:01.297 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:48:01.540 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 242.3788ms
+2022-11-11 23:48:09.425 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:48:09.450 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:48:09.480 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 54.5541ms
+2022-11-11 23:48:09.869 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:48:09.878 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:48:09.897 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:48:11.163 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:48:11.707 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:48:11.873 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 1969.0572ms
+2022-11-11 23:48:11.874 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:48:11.882 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 2012.7866ms
+2022-11-11 23:48:11.885 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:48:11.886 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:48:11.889 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:48:11.890 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:48:11.890 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 0.5191ms
+2022-11-11 23:49:46.634 +01:00 [Information] Now listening on: "http://localhost:5135"
+2022-11-11 23:49:46.675 +01:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-11-11 23:49:46.677 +01:00 [Information] Hosting environment: "Development"
+2022-11-11 23:49:46.679 +01:00 [Information] Content root path: "C:\Development\Personal\antimicrobici\antimicrobici-api\Antimicrobici.Api"
+2022-11-11 23:49:47.726 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/index.html - -
+2022-11-11 23:49:48.549 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/index.html - - - 200 - text/html;charset=utf-8 829.6735ms
+2022-11-11 23:49:48.571 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_vs/browserLink - -
+2022-11-11 23:49:48.575 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - -
+2022-11-11 23:49:48.584 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_framework/aspnetcore-browser-refresh.js - - - 200 12004 application/javascript;+charset=utf-8 9.4494ms
+2022-11-11 23:49:48.618 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.5948ms
+2022-11-11 23:49:48.803 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - -
+2022-11-11 23:49:49.048 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:5135/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 244.3320ms
+2022-11-11 23:49:57.463 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/i18n - -
+2022-11-11 23:49:57.485 +01:00 [Warning] Failed to determine the https port for redirect.
+2022-11-11 23:49:57.522 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/i18n - - - 404 0 - 58.9531ms
+2022-11-11 23:49:57.871 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/menu - -
+2022-11-11 23:49:57.885 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:49:57.905 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Menu\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Get()" on controller "Antimicrobici.Api.Controllers.MenuController" ("Antimicrobici.Api").
+2022-11-11 23:49:59.407 +01:00 [Information] Entity Framework Core "6.0.3" initialized '"AmDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"6.0.3"' with options: "None"
+2022-11-11 23:49:59.938 +01:00 [Information] Executing "OkObjectResult", writing value of type '"Antimicrobici.Core.Models.MenuProfile"'.
+2022-11-11 23:50:00.111 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)" in 2198.8061ms
+2022-11-11 23:50:00.112 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.MenuController.Get (Antimicrobici.Api)"'
+2022-11-11 23:50:00.121 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/menu - - - 200 72 application/json;+charset=utf-8 2249.4572ms
+2022-11-11 23:50:00.130 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/richiedente - -
+2022-11-11 23:50:00.131 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:4200/materiali - -
+2022-11-11 23:50:00.132 +01:00 [Information] Executing endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:50:00.132 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/materiali - - - 404 0 - 1.1183ms
+2022-11-11 23:50:00.137 +01:00 [Information] Route matched with "{action = \"Get\", controller = \"Richiedente\"}". Executing controller action with signature "Antimicrobici.Api.Models.Result`1[Antimicrobici.Core.Models.Richiedente] Get()" on controller "Antimicrobici.Api.Controllers.RichiedenteController" ("Antimicrobici.Api").
+2022-11-11 23:53:04.972 +01:00 [Information] Executing "ObjectResult", writing value of type '"Antimicrobici.Api.Models.Result`1[[Antimicrobici.Core.Models.Richiedente, Antimicrobici.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2022-11-11 23:53:04.990 +01:00 [Information] Executed action "Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)" in 184856.0374ms
+2022-11-11 23:53:04.990 +01:00 [Information] Executed endpoint '"Antimicrobici.Api.Controllers.RichiedenteController.Get (Antimicrobici.Api)"'
+2022-11-11 23:53:04.990 +01:00 [Information] Request finished HTTP/1.1 GET http://localhost:4200/richiedente - - - 200 38 application/json;+charset=utf-8 184863.1426ms
