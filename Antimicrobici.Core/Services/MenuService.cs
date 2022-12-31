@@ -55,7 +55,8 @@ namespace Antimicrobici.Core.Services
                 foreach (Menu menu in menus)
                 {
                     MenuEntry mnu = new MenuEntry();
-                    mnu.id = menu?.Id.ToString();
+                    //mnu.id = menu?.Id.ToString();
+                    mnu.id = menu?.Name;
                     mnu.name = menu?.Name;
                     mnu.icon = menu?.Icon;
 
@@ -67,7 +68,8 @@ namespace Antimicrobici.Core.Services
                         foreach (Menu item in figli)
                         {
                             MenuEntry figlio = new MenuEntry();
-                            figlio.id = item.Id.ToString();
+                            //figlio.id = item.Id.ToString();
+                            figlio.id = item.Name;
                             figlio.name = item.Name;
                             figlio.icon = item.Icon;
                             webFigli.Add(figlio);
